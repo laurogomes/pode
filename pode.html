@@ -11,16 +11,16 @@
                         fallback: "true",
 								  type: "hls",
 
-                        abouttext: "BRASILTVS",
-                        aboutlink: "http://BRASILTVS.COM",
+                        abouttext: "Brioni",
+                        aboutlink: "Brioni",
                         allowfullscreen: "true",
-                        abouttext: "::::  BRASILTVS  ::::",
-               			aboutlink: "http://BRASILTVS.COM"
+                        abouttext: "::::  Brioni  ::::",
+               			aboutlink: "Brioni"
                     });
 					jwplayer("myElement").on("play", function(){
 						setTimeout(function(){
 						var textAlt = document.querySelectorAll("#" + jwplayer().id + " .jw-controlbar-center-group .jw-text-alt")[0];
-						if(textAlt) textAlt.innerHTML = "BRASILTVS.COM";
+						if(textAlt) textAlt.innerHTML = "Brioni";
 						},300);
 					});
 					jwplayer("myElement").on("error", function() {
